@@ -1,4 +1,4 @@
-This project provides a widget that animates a numeric counter up or down to a new value.  The widget supports user-configurable number formatting - allowing the display of currencies, decimal numbers, or whatever other format you'd like.  Calculations used to perform the animation use the NSDecimalNumber class and are safe for currencies.
+This project provides an iOS widget that animates a numeric counter up or down to a new value.  The widget supports user-configurable number formatting - allowing the display of currencies, decimal numbers, or whatever other format you'd like.  Calculations used to perform the animation use the NSDecimalNumber class and are safe for currencies.
 
 This meat of this project is the MOAnimatedNumberLabel class which animates itself up or down from the current number displayed to the target number sent to its -(void)animateTextToNumber:(NSDecimalNumber *)number method.  Numbers are formatted by the NSNumberFormatter assigned to the MOAnimatedNumberLabel's numberFormatter property.
 
